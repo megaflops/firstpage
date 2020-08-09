@@ -21,7 +21,7 @@ static $msg1= '<html><body><center><p style="color:red;font-size:18px;font-weigh
  else
 {
  $body="Name=".$fname."<br/>"."Email=".$email."<br/><br/>"."Message=".$message;
-if(mail('itsrakesh@gmail.com ','CSECODER ',$body,$header))
+if(mail('care@amtriclabs.com','Query ',$body,$header))
 {
 static $msg2= '<html><body><center><p style="color:red;font-size:18px;font-weight:bold;">Your Message Has Been Sent</p></center></body></html>';
 }
